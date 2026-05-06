@@ -1,21 +1,912 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harun Ahmed | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" as="image" href="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/harun-ahmed-B3B5edEc.jpg">
+    <link rel="preload" as="image" href="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/logo.png">
+    <title>Harun Ahmed — Your Journey Starts Here</title>
+    <meta property="og:title" content="Harun Ahmed — Air Ticketing & Reservation Officer in Dhaka">
+    <meta property="og:description" content="4+ years of expertise in GDS systems. Domestic & international tickets, corporate travel, and personalized flight booking from Dhaka, Bangladesh.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Harun Ahmed — Air Ticketing & Reservation Officer in Dhaka">
+    <meta name="twitter:description" content="4+ years of expertise in GDS systems. Domestic & international tickets, corporate travel, and personalized flight booking from Dhaka, Bangladesh.">
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/537ace88-055a-4456-a22e-49c914829e5b">
+    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/537ace88-055a-4456-a22e-49c914829e5b">
+    <meta name="description" content="Book domestic & international flights with a trusted Air Ticketing & Reservation Officer in Dhaka.">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#fafaf9',
+                        foreground: '#1b1b1b',
+                        card: '#ffffff',
+                        'card-foreground': '#1b1b1b',
+                        primary: '#1b1b1b',
+                        'primary-foreground': '#fafaf9',
+                        secondary: '#f5f5f4',
+                        'secondary-foreground': '#1b1b1b',
+                        muted: '#f5f5f4',
+                        'muted-foreground': '#787774',
+                        accent: '#f5f5f4',
+                        'accent-foreground': '#1b1b1b',
+                        border: '#e7e5e4',
+                        whatsapp: '#25D366',
+                        'whatsapp-foreground': '#ffffff',
+                        emerald: {
+                            50: '#ecfdf5',
+                            200: '#a7f3d0',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                        },
+                    },
+                    fontFamily: {
+                        display: ['"CameraPlainVariable"', '"CameraPlainVariable Fallback"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+                        sans: ['"CameraPlainVariable"', '"CameraPlainVariable Fallback"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 1px 3px 0 rgba(0,0,0,0.04), 0 1px 2px -1px rgba(0,0,0,0.06)',
+                        'card': '0 0 0 1px rgba(0,0,0,0.04), 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 8px -2px rgba(0,0,0,0.08)',
+                    },
+                    animation: {
+                        'fade-up': 'fadeUp 0.6s ease-out both',
+                        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        pulse: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0.5' },
+                        },
+                    },
+                    borderRadius: {
+                        'xl': '0.75rem',
+                        '2xl': '1rem',
+                        '3xl': '1.5rem',
+                    },
+                },
+            },
+        }
+    </script>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; font-size: 1.2em; }
-        .contact { margin-top: 20px; font-weight: bold; }
+        @font-face {
+            font-family: 'CameraPlainVariable';
+            src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+            font-weight: 100 900;
+            font-style: normal;
+            font-display: swap;
+        }
+        :root {
+            --badge-bg: #1b1b1b;
+            --badge-text: #c5c1b9;
+            --badge-text-hover: #dcdad5;
+            --badge-radius: 6px;
+            --badge-padding: 8px;
+            --badge-gap: 6px;
+            --badge-shadow: 0 0 0 1px rgba(0, 0, 0, 0.88), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 2px 2px -1px rgba(0, 0, 0, 0.08), 0 4px 4px -2px rgba(0, 0, 0, 0.08), 0 8px 8px -4px rgba(0, 0, 0, 0.08), 0 16px 16px -8px rgba(0, 0, 0, 0.08);
+            --badge-transition-duration: 0.2s;
+            --badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+            --focus-color: #575ECF;
+            --focus-offset: 2px;
+            --focus-width: 2px;
+        }
+        @keyframes marquee-left {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+        @keyframes marquee-right {
+            0% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .marquee-mask {
+            -webkit-mask-image: linear-gradient(to right,
+                    transparent 0%,
+                    black 5%,
+                    black 95%,
+                    transparent 100%);
+            mask-image: linear-gradient(to right,
+                    transparent 0%,
+                    black 5%,
+                    black 95%,
+                    transparent 100%);
+        }
+        .marquee-track {
+            display: flex;
+            width: max-content;
+            gap: 0.5rem;
+        }
+        .line-clamp-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        #lovable-badge {
+            position: fixed;
+            bottom: 12px;
+            right: 12px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            z-index: 1000000;
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            border-radius: var(--badge-radius);
+            box-shadow: var(--badge-shadow);
+            font-size: 12px;
+            font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-weight: 400 !important;
+            text-transform: none !important;
+            font-feature-settings: normal !important;
+            transform: translateZ(0);
+            will-change: transform, opacity;
+        }
+        #lovable-badge-cta {
+            display: flex;
+            align-items: center;
+            gap: var(--badge-gap);
+            padding: 0 var(--badge-padding);
+            height: 100%;
+            color: inherit;
+            text-decoration: none;
+            white-space: nowrap;
+            border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+            transition: background-color var(--badge-transition-duration) ease,
+                color var(--badge-transition-duration) ease,
+                transform 0.1s ease;
+        }
+        #lovable-badge-cta:hover {
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--badge-text-hover);
+        }
+        #lovable-badge-cta:active {
+            transform: scale(0.98);
+        }
+        #lovable-badge-cta:focus {
+            outline: none;
+        }
+        #lovable-badge-cta:focus-visible {
+            outline: var(--focus-width) solid var(--focus-color);
+            outline-offset: var(--focus-offset);
+            z-index: 1;
+        }
+        #lovable-badge-text {
+            line-height: 1;
+        }
+        #lovable-badge-divider {
+            width: 1px;
+            height: 24px;
+            background-color: rgba(255, 255, 255, 0.04);
+            flex-shrink: 0;
+        }
+        #lovable-badge-close {
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            min-height: 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+            flex-shrink: 0;
+            transition: background-color var(--badge-transition-duration) ease,
+                transform 0.1s ease;
+        }
+        #lovable-badge-close:hover {
+            background: rgba(255, 255, 255, 0.04);
+        }
+        #lovable-badge-close:active {
+            transform: scale(0.92);
+        }
+        #lovable-badge-close:focus {
+            outline: none;
+        }
+        #lovable-badge-close:focus-visible {
+            outline: var(--focus-width) solid var(--focus-color);
+            outline-offset: calc(var(--focus-offset) * -1);
+            z-index: 1;
+        }
+        #lovable-badge-close svg path {
+            fill: var(--badge-text);
+            transition: fill var(--badge-transition-duration) ease;
+        }
+        #lovable-badge-close:hover svg path {
+            fill: var(--badge-text-hover);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            #lovable-badge-cta,
+            #lovable-badge-close,
+            #lovable-badge-close svg path {
+                transition: none;
+            }
+            #lovable-badge-cta:active,
+            #lovable-badge-close:active {
+                transform: none;
+            }
+        }
+        @media (prefers-contrast: high) {
+            #lovable-badge {
+                --badge-bg: #000;
+                --badge-text: #fff;
+                --badge-text-hover: #fff;
+                border: 2px solid currentColor;
+            }
+            #lovable-badge-cta:focus-visible,
+            #lovable-badge-close:focus-visible {
+                outline-width: 3px;
+            }
+        }
     </style>
+    <script src="https://unpkg.com/lucide@latest">
+    </script>
 </head>
-<body>
-    <h1>Harun Ahmed</h1>
-    <p>Air Ticket & Reservation Officer | Aspiring AI Generalist</p>
-    <div class="contact">
-        নতুন ওয়েবসাইটটি শীঘ্রই আসছে...
+<body class="bg-background text-foreground font-sans antialiased">
+    <div class="min-h-screen flex flex-col">
+        <header class="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border/60">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 h-16 flex items-center justify-between">
+                <a class="flex items-center gap-2 group" href="#" aria-current="page">
+                    <span class="grid place-items-center h-9 w-9 rounded-xl bg-primary text-primary-foreground transition-transform group-hover:-rotate-12">
+                        <i data-lucide="plane" class="h-4 w-4"></i>
+                    </span>
+                    <span class="font-display font-bold text-lg">Harun Ahmed</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-1 text-sm font-medium">
+                    <a class="px-3 py-2 rounded-lg bg-accent text-foreground" href="#" aria-current="page">Home</a>
+                    <a href="#about" class="px-3 py-2 rounded-lg hover:bg-accent transition-colors">About</a>
+                    <a href="#contact" class="px-3 py-2 rounded-lg hover:bg-accent transition-colors">Contact</a>
+                    <div class="relative">
+                        <button id="othersDropdownBtn" class="px-3 py-2 rounded-lg hover:bg-accent inline-flex items-center gap-1 transition-colors">
+                            Others <i data-lucide="chevron-down" class="h-3.5 w-3.5"></i>
+                        </button>
+                        <div id="othersDropdown" class="absolute top-full right-0 mt-1 w-40 bg-card border border-border rounded-xl shadow-card py-1 hidden z-50">
+                            <a href="#destinations" class="block px-4 py-2 text-sm hover:bg-accent transition-colors">Destinations</a>
+                            <a href="#airlines" class="block px-4 py-2 text-sm hover:bg-accent transition-colors">Airlines</a>
+                            <a href="#routes" class="block px-4 py-2 text-sm hover:bg-accent transition-colors">Routes</a>
+                        </div>
+                    </div>
+                </nav>
+                <a href="tel:+8801932528087" class="hidden sm:inline-flex items-center gap-2 h-9 px-3.5 rounded-full bg-primary text-primary-foreground text-xs font-semibold hover:opacity-90 transition-all hover:shadow-soft">
+                    <i data-lucide="phone" class="h-3.5 w-3.5"></i>
+                    <span>+880 1932-528087</span>
+                </a>
+                <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg hover:bg-accent" aria-label="Toggle menu">
+                    <i data-lucide="menu" class="h-5 w-5"></i>
+                </button>
+            </div>
+            <div id="mobileMenu" class="md:hidden hidden px-4 pb-4 border-t border-border/60 bg-background/95 backdrop-blur-md">
+                <a href="#" class="block py-2 text-sm font-medium rounded-lg px-3 bg-accent">Home</a>
+                <a href="#about" class="block py-2 text-sm font-medium rounded-lg px-3 hover:bg-accent transition-colors">About</a>
+                <a href="#contact" class="block py-2 text-sm font-medium rounded-lg px-3 hover:bg-accent transition-colors">Contact</a>
+                <a href="#destinations" class="block py-2 text-sm font-medium rounded-lg px-3 hover:bg-accent transition-colors">Destinations</a>
+                <a href="#airlines" class="block py-2 text-sm font-medium rounded-lg px-3 hover:bg-accent transition-colors">Airlines</a>
+                <a href="#routes" class="block py-2 text-sm font-medium rounded-lg px-3 hover:bg-accent transition-colors">Routes</a>
+            </div>
+        </header>
+        <main class="flex-1">
+            <section class="relative overflow-hidden">
+                <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,oklch(0.95_0.02_250)_0%,transparent_60%)]"></div>
+                <div class="container mx-auto max-w-6xl px-4 sm:px-6 pt-16 sm:pt-24 pb-16 grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="animate-fade-up">
+                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-card border border-border shadow-card text-xs font-medium mb-6">
+                            <i data-lucide="plane" class="h-3.5 w-3.5"></i>Air Ticketing & Reservation Officer
+                            <span class="ml-1 inline-flex items-center gap-1.5 text-emerald-600">
+                                <span class="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Available
+                            </span>
+                        </div>
+                        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[0.95] mb-6">Your Journey<br>Starts Here</h1>
+                        <p class="text-base sm:text-lg text-muted-foreground max-w-lg mb-8">
+                            I'm <strong class="text-foreground">Harun Ahmed</strong> — 4+ years of expertise in GDS systems (Galileo, Amadeus, Sabre), helping travelers and corporate clients secure the best flight deals.
+                        </p>
+                        <div class="flex flex-wrap items-center gap-3">
+                            <a href="#contact" class="inline-flex items-center gap-2 h-11 px-6 rounded-full bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 hover:shadow-soft transition-all group">
+                                Booking a Consultant
+                                <i data-lucide="arrow-right" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-card rounded-3xl border border-border shadow-soft p-6 sm:p-8 animate-fade-up">
+                        <h3 class="text-xl font-bold mb-1.5">Get in Touch</h3>
+                        <p class="text-sm text-muted-foreground mb-6">Send your query — I'll respond within minutes.</p>
+                        <form id="quickContactForm" class="space-y-3">
+                            <input required placeholder="Your Full Name" class="w-full h-11 px-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-card outline-none text-sm transition" name="name">
+                            <input required placeholder="WhatsApp Number or Email" class="w-full h-11 px-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-card outline-none text-sm transition" name="contact">
+                            <textarea name="query" required rows="3" placeholder="Your travel query (destination, dates, passengers)..." class="w-full p-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-card outline-none text-sm transition resize-none"></textarea>
+                            <div class="flex items-center justify-between gap-4 pt-1">
+                                <button type="submit" class="inline-flex items-center justify-center gap-2 h-10 px-5 rounded-xl bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition">
+                                    <i data-lucide="mail" class="h-4 w-4"></i> Send Email
+                                </button>
+                                <a href="https://wa.me/8801932528087" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center gap-2 h-10 px-5 rounded-xl bg-whatsapp text-whatsapp-foreground text-sm font-semibold hover:opacity-90 transition ml-auto">
+                                    <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12.013 2C6.485 2 2 6.485 2 12.013c0 1.766.462 3.49 1.34 5.005L2 22l5.13-1.336a9.97 9.97 0 0 0 4.883 1.255h.004C17.547 21.92 22 17.435 22 11.91 22 6.392 17.516 2 12.013 2z"></path></svg> WhatsApp
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="relative overflow-hidden py-20">
+                <div class="container mx-auto max-w-6xl px-4 sm:px-6">
+                    <div class="text-center mb-10">
+                        <p class="text-center text-sm font-bold uppercase tracking-[0.3em] text-primary pl-[0.3em]">About Me</p>
+                    </div>
+                    <div class="grid lg:grid-cols-5 gap-6 lg:gap-8 items-center">
+                        <div class="lg:col-span-2 flex justify-center">
+                            <img src="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/harun-ahmed-B3B5edEc.jpg" alt="Harun Ahmed — Air Ticket & Reservation Specialist" class="w-full max-w-[340px] h-auto object-contain" loading="lazy">
+                        </div>
+                        <div class="lg:col-span-3 flex flex-col">
+                            <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">Making Air Travel Simple, Fast & Affordable</h3>
+                            <p class="italic text-foreground/70 mb-4">Making travel simple, fast, and affordable for everyone.</p>
+                            <div class="inline-flex self-start items-center gap-2 pl-1 pr-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-semibold mb-5">
+                                <img src="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/logo.png" alt="ATAB" class="h-5 w-5 rounded-full bg-white object-contain">ATAB Certified
+                            </div>
+                            <p class="text-muted-foreground leading-relaxed text-justify mb-6">
+                                I'm Harun Ahmed, an Air Ticketing & Reservation specialist with 4+ years of hands-on experience handling domestic and international travel. From fare construction and ticket issuance to reissues and corporate itineraries, I work across leading GDS platforms — Galileo, Amadeus, and Sabre — to deliver smooth bookings, the best available fares, and reliable end-to-end support for every traveler.
+                            </p>
+                            <div class="grid grid-cols-3 gap-3 mb-5">
+                                <div class="bg-card border border-border rounded-xl p-3 text-center">
+                                    <i data-lucide="send" class="h-4 w-4 text-primary mx-auto mb-1.5"></i>
+                                    <div class="font-display font-bold text-base leading-tight">2000+</div>
+                                    <div class="text-[10px] text-muted-foreground leading-tight mt-0.5">Tickets Issued</div>
+                                </div>
+                                <div class="bg-card border border-border rounded-xl p-3 text-center">
+                                    <i data-lucide="users" class="h-4 w-4 text-primary mx-auto mb-1.5"></i>
+                                    <div class="font-display font-bold text-base leading-tight">98%</div>
+                                    <div class="text-[10px] text-muted-foreground leading-tight mt-0.5">Customer Satisfaction</div>
+                                </div>
+                                <div class="bg-card border border-border rounded-xl p-3 text-center">
+                                    <i data-lucide="plane" class="h-4 w-4 text-primary mx-auto mb-1.5"></i>
+                                    <div class="font-display font-bold text-base leading-tight">50+</div>
+                                    <div class="text-[10px] text-muted-foreground leading-tight mt-0.5">Airline Partnerships</div>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Galileo GDS</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Amadeus GDS</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Sabre GDS</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Ticket Reissue</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Visa Consultation</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Corporate Travel</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">Group Booking</span>
+                                <span class="px-3 py-1.5 rounded-full bg-secondary text-foreground/80 text-xs font-medium border border-border">BSP & ARC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container mx-auto max-w-6xl px-4 sm:px-6 py-16">
+                <div class="max-w-2xl mb-10 mx-auto text-center">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-accent text-xs font-semibold uppercase tracking-wider text-foreground/70 mb-4">Worldwide</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-3">Fly to Top Countries</h2>
+                    <p class="text-muted-foreground">Book flights to popular destinations at the best prices.</p>
+                </div>
+                <div class="space-y-4" id="countriesMarquee"></div>
+            </section>
+
+            <section id="routes" class="container mx-auto max-w-6xl px-4 sm:px-6 py-16">
+                <div class="max-w-2xl mb-10 mx-auto text-center">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-accent text-xs font-semibold uppercase tracking-wider text-foreground/70 mb-4">Routes</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-3">Domestic & International Routes</h2>
+                    <p class="text-muted-foreground">From business class to economy on hundreds of airlines.</p>
+                </div>
+                <div class="space-y-6" id="routesMarquee"></div>
+            </section>
+
+            <section id="destinations" class="container mx-auto max-w-6xl px-4 sm:px-6 py-16">
+                <div class="max-w-2xl mb-10 mx-auto text-center">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-accent text-xs font-semibold uppercase tracking-wider text-foreground/70 mb-4">Destinations</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-3">Explore Hidden Gems</h2>
+                    <p class="text-muted-foreground">Curated travel packages across Bangladesh and the world.</p>
+                </div>
+                <div class="space-y-6" id="destinationsMarquee"></div>
+                <div class="mt-8 text-center">
+                    <a href="#destinations" class="inline-flex items-center gap-1.5 text-sm font-semibold text-foreground hover:gap-2.5 transition-all">
+                        View all destinations <i data-lucide="arrow-right" class="h-4 w-4"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="airlines" class="container mx-auto max-w-6xl px-4 sm:px-6 py-16">
+                <div class="max-w-2xl mb-10 mx-auto text-center">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-accent text-xs font-semibold uppercase tracking-wider text-foreground/70 mb-4">Airlines</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-3">Popular Airlines</h2>
+                    <p class="text-muted-foreground">Discover top airlines and book any flight instantly.</p>
+                </div>
+                <div class="space-y-4" id="airlinesMarquee"></div>
+            </section>
+
+            <section id="contact" class="container mx-auto max-w-6xl px-4 sm:px-6 py-20">
+                <div class="max-w-2xl mb-10 mx-auto text-center">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full bg-accent text-xs font-semibold uppercase tracking-wider text-foreground/70 mb-4">Contact</div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-3">Let's Plan Your Next Adventure</h2>
+                    <p class="text-muted-foreground">Ready to experience seamless travel planning? Reach out and let's discuss your journey.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-card border border-border rounded-3xl p-7 shadow-card flex flex-col">
+                        <h3 class="text-xl font-bold mb-5">Get in Touch</h3>
+                        <div class="space-y-4">
+                            <a href="tel:+8801932528087">
+                                <div class="flex items-center gap-4 p-3 rounded-xl hover:bg-secondary/60 transition">
+                                    <div class="grid place-items-center h-10 w-10 rounded-xl bg-secondary text-foreground/70">
+                                        <i data-lucide="phone" class="h-4 w-4"></i>
+                                    </div>
+                                    <div class="min-w-0">
+                                        <div class="text-xs text-muted-foreground">Phone</div>
+                                        <div class="font-semibold text-sm truncate">+880 1932-528087</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="mailto:harun.ahmed.co@gmail.com?subject=Flight%20Booking%20Inquiry&body=Name:%0D%0APhone:%0D%0AMessage:">
+                                <div class="flex items-center gap-4 p-3 rounded-xl hover:bg-secondary/60 transition">
+                                    <div class="grid place-items-center h-10 w-10 rounded-xl bg-secondary text-foreground/70">
+                                        <i data-lucide="mail" class="h-4 w-4"></i>
+                                    </div>
+                                    <div class="min-w-0">
+                                        <div class="text-xs text-muted-foreground">Email</div>
+                                        <div class="font-semibold text-sm truncate">harun.ahmed.co@gmail.com</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="flex items-center gap-4 p-3 rounded-xl hover:bg-secondary/60 transition">
+                                <div class="grid place-items-center h-10 w-10 rounded-xl bg-secondary text-foreground/70">
+                                    <i data-lucide="map-pin" class="h-4 w-4"></i>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="text-xs text-muted-foreground">Location</div>
+                                    <div class="font-semibold text-sm truncate">Dhaka, Bangladesh</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 pt-5 border-t border-border">
+                            <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">Follow & Connect</div>
+                            <div class="flex gap-2.5">
+                                <a href="https://www.facebook.com/its.harunahmed/" target="_blank" rel="noreferrer" aria-label="Facebook" class="grid place-items-center h-10 w-10 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all">
+                                    <i data-lucide="facebook" class="h-4 w-4"></i>
+                                </a>
+                                <a href="https://www.instagram.com/iamharunahmed/" target="_blank" rel="noreferrer" aria-label="Instagram" class="grid place-items-center h-10 w-10 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all">
+                                    <i data-lucide="instagram" class="h-4 w-4"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/harunahmed/" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="grid place-items-center h-10 w-10 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all">
+                                    <i data-lucide="linkedin" class="h-4 w-4"></i>
+                                </a>
+                                <a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="X (Twitter)" class="grid place-items-center h-10 w-10 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all">
+                                    <i data-lucide="twitter" class="h-4 w-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/8801932528087" target="_blank" rel="noreferrer" class="mt-6 w-full inline-flex items-center justify-center gap-2 h-11 rounded-xl bg-whatsapp text-whatsapp-foreground text-sm font-semibold hover:opacity-90 transition">
+                            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12.013 2C6.485 2 2 6.485 2 12.013c0 1.766.462 3.49 1.34 5.005L2 22l5.13-1.336a9.97 9.97 0 0 0 4.883 1.255h.004C17.547 21.92 22 17.435 22 11.91 22 6.392 17.516 2 12.013 2z"></path></svg> Chat on WhatsApp
+                        </a>
+                    </div>
+                    <div class="bg-card border border-border rounded-3xl p-7 shadow-card">
+                        <h3 class="text-xl font-bold mb-1">Send a Message</h3>
+                        <p class="text-sm text-muted-foreground mb-5">Direct to my inbox.</p>
+                        <form id="contactForm" class="space-y-3">
+                            <input required placeholder="Name" class="w-full h-11 px-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-background outline-none text-sm transition" name="name">
+                            <input required type="email" placeholder="Email" class="w-full h-11 px-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-background outline-none text-sm transition" name="email">
+                            <input required type="tel" placeholder="Phone Number" class="w-full h-11 px-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-background outline-none text-sm transition" name="phone">
+                            <textarea name="message" required rows="5" placeholder="Message" class="w-full p-4 rounded-xl bg-secondary border border-transparent focus:border-primary/40 focus:bg-background outline-none text-sm transition resize-none"></textarea>
+                            <div class="pt-1">
+                                <button type="submit" class="w-full inline-flex items-center justify-center gap-2 h-11 rounded-xl bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition">
+                                    <i data-lucide="send" class="h-4 w-4"></i> Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-border bg-secondary/40 mt-24">
+            <div class="container mx-auto max-w-6xl px-4 sm:px-6 py-14">
+                <div class="grid gap-10 md:grid-cols-3">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="grid place-items-center h-9 w-9 rounded-xl bg-primary text-primary-foreground">
+                                <i data-lucide="plane" class="h-4 w-4"></i>
+                            </span>
+                            <span class="font-display font-bold text-lg">Harun Ahmed</span>
+                        </div>
+                        <p class="text-sm text-muted-foreground mb-5 max-w-xs">Air Ticketing & Reservation Officer based in Dhaka, Bangladesh.</p>
+                        <div class="text-sm font-semibold mb-3">Follow Along</div>
+                        <div class="flex gap-2">
+                            <a href="https://www.facebook.com/its.harunahmed/" target="_blank" rel="noreferrer" aria-label="Facebook" class="grid place-items-center h-9 w-9 rounded-full bg-card border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
+                                <i data-lucide="facebook" class="h-4 w-4"></i>
+                            </a>
+                            <a href="https://www.instagram.com/iamharunahmed/" target="_blank" rel="noreferrer" aria-label="Instagram" class="grid place-items-center h-9 w-9 rounded-full bg-card border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
+                                <i data-lucide="instagram" class="h-4 w-4"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/harunahmed/" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="grid place-items-center h-9 w-9 rounded-full bg-card border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
+                                <i data-lucide="linkedin" class="h-4 w-4"></i>
+                            </a>
+                            <a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="X (Twitter)" class="grid place-items-center h-9 w-9 rounded-full bg-card border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
+                                <i data-lucide="twitter" class="h-4 w-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-sm font-semibold mb-4">Quick Links</div>
+                        <ul class="space-y-2.5 text-sm">
+                            <li><a class="text-muted-foreground hover:text-foreground transition-colors" href="#">Home</a></li>
+                            <li><a href="#about" class="text-muted-foreground hover:text-foreground transition-colors">About</a></li>
+                            <li><a href="#contact" class="text-muted-foreground hover:text-foreground transition-colors">Contact</a></li>
+                            <li><a href="#destinations" class="text-muted-foreground hover:text-foreground transition-colors">Destinations</a></li>
+                            <li><a href="#airlines" class="text-muted-foreground hover:text-foreground transition-colors">Airlines</a></li>
+                            <li><a href="#routes" class="text-muted-foreground hover:text-foreground transition-colors">Routes</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-sm font-semibold mb-4">Contact Info</div>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="phone" class="h-4 w-4 mt-0.5 text-muted-foreground"></i>
+                                <a href="tel:+8801932528087" class="hover:text-foreground text-muted-foreground transition-colors">+880 1932-528087</a>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="mail" class="h-4 w-4 mt-0.5 text-muted-foreground"></i>
+                                <a href="mailto:harun.ahmed.co@gmail.com" class="hover:text-foreground text-muted-foreground transition-colors break-all">harun.ahmed.co@gmail.com</a>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="map-pin" class="h-4 w-4 mt-0.5 text-muted-foreground"></i>
+                                <span class="text-muted-foreground">Dhaka, Bangladesh</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-10 pt-6 border-t border-border text-xs text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-2">
+                    <span>© 2026 Harun Ahmed. All rights reserved.</span>
+                    <span>Crafted with care in Dhaka, Bangladesh.</span>
+                </div>
+            </div>
+        </footer>
     </div>
+
+    <aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+        <a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/6af2a624-d582-4f82-8d0d-52707422376b?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
+            <span id="lovable-badge-text">Edit with</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+                <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"></path>
+                <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"></path>
+                <path fill="url(#lovableGradient)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"></path>
+                <defs>
+                    <radialgradient id="lovableGradient" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+                        <stop offset=".106" stop-color="#FE7B02"></stop>
+                        <stop offset=".394" stop-color="#FE3F21"></stop>
+                        <stop offset=".608" stop-color="#F858BC"></stop>
+                        <stop offset=".929" stop-color="#575ECF"></stop>
+                    </radialgradient>
+                </defs>
+            </svg>
+        </a>
+        <span id="lovable-badge-divider" aria-hidden="true"></span>
+        <button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"></path>
+            </svg>
+        </button>
+    </aside>
+
+    <script>
+        (function() {
+            if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+                var badge = document.getElementById('lovable-badge');
+                if (badge) { badge.style.display = 'none'; }
+            }
+            var closeButton = document.getElementById('lovable-badge-close');
+            if (closeButton) {
+                closeButton.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    var badge = document.getElementById('lovable-badge');
+                    if (badge) {
+                        badge.style.opacity = '0';
+                        badge.style.transition = 'opacity 0.24s ease';
+                        setTimeout(function() {
+                            if (badge) { badge.style.display = 'none'; }
+                        }, 240);
+                    }
+                });
+            }
+        })();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+
+            // Others dropdown
+            const othersBtn = document.getElementById('othersDropdownBtn');
+            const othersDropdown = document.getElementById('othersDropdown');
+            if (othersBtn && othersDropdown) {
+                othersBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    othersDropdown.classList.toggle('hidden');
+                });
+                document.addEventListener('click', function(e) {
+                    if (!othersDropdown.contains(e.target) && e.target !== othersBtn) {
+                        othersDropdown.classList.add('hidden');
+                    }
+                });
+            }
+
+            // Form submissions - prevent default and show alert
+            const quickForm = document.getElementById('quickContactForm');
+            const contactForm = document.getElementById('contactForm');
+            if (quickForm) {
+                quickForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Thank you for your query! Harun Ahmed will respond within minutes. (Demo: form submission simulated)');
+                    quickForm.reset();
+                });
+            }
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Thank you for your message! Harun Ahmed will get back to you soon. (Demo: form submission simulated)');
+                    contactForm.reset();
+                });
+            }
+
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#') return;
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+            generateMarquees();
+        });
+
+        function generateMarquees() {
+            const flagBase = 'https://flagcdn.com/w40/';
+            const countries = [
+                { code: 'in', name: 'India' }, { code: 'sg', name: 'Singapore' }, { code: 'th', name: 'Thailand' },
+                { code: 'my', name: 'Malaysia' }, { code: 'us', name: 'USA' }, { code: 'au', name: 'Australia' },
+                { code: 'ca', name: 'Canada' }, { code: 'np', name: 'Nepal' }, { code: 'gb', name: 'UK' },
+                { code: 'ae', name: 'UAE' }, { code: 'fr', name: 'France' }, { code: 'it', name: 'Italy' },
+                { code: 'sa', name: 'Saudi Arabia' }, { code: 'qa', name: 'Qatar' }, { code: 'tr', name: 'Turkey' },
+                { code: 'de', name: 'Germany' }
+            ];
+
+            const internationalRoutes = [
+                { code: 'ae', name: 'Dubai' }, { code: 'my', name: 'Kuala Lumpur' }, { code: 'sg', name: 'Singapore' },
+                { code: 'th', name: 'Bangkok' }, { code: 'tr', name: 'Istanbul' }, { code: 'qa', name: 'Doha' },
+                { code: 'gb', name: 'London' }, { code: 'us', name: 'New York' }, { code: 'au', name: 'Sydney' },
+                { code: 'fr', name: 'Paris' }, { code: 'it', name: 'Rome' }, { code: 'jp', name: 'Tokyo' }
+            ];
+
+            const domesticRoutes = [
+                'Cox\'s Bazar', 'Chattogram', 'Sylhet', 'Jashore', 'Barisal', 'Saidpur', 'Rajshahi'
+            ];
+
+            function generateCountryChips(data, flagBaseUrl) {
+                return data.map(item => `
+                    <div class="shrink-0">
+                        <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-card border border-border shadow-card text-sm font-medium hover:border-primary/40 hover:-translate-y-0.5 transition-all">
+                            <img src="${flagBaseUrl}${item.code}.png" alt="${item.name}" class="h-4 w-6 rounded-sm object-cover" loading="lazy">
+                            ${item.name}
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            function generateDomesticChips(routes) {
+                return routes.map(city => `
+                    <div class="shrink-0">
+                        <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-card border border-border shadow-card text-sm font-medium hover:border-primary/40 hover:-translate-y-0.5 transition-all">
+                            <img src="${flagBase}bd.png" alt="Bangladesh" class="h-4 w-6 rounded-sm object-cover" loading="lazy">
+                            ${city}
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            function generateInternationalRouteChips(routes) {
+                return routes.map(item => `
+                    <div class="shrink-0">
+                        <div class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-card border border-border shadow-card text-sm font-medium hover:border-primary/40 hover:-translate-y-0.5 transition-all">
+                            <img src="${flagBase}${item.code}.png" alt="${item.name}" class="h-4 w-6 rounded-sm object-cover" loading="lazy">
+                            ${item.name}
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            function duplicateForMarquee(html, count) {
+                return Array(count).fill(html).join('');
+            }
+
+            const countryChips = generateCountryChips(countries, flagBase);
+            const countriesContainer = document.getElementById('countriesMarquee');
+            if (countriesContainer) {
+                countriesContainer.innerHTML = `
+                    <div class="marquee-mask overflow-hidden">
+                        <div class="marquee-track py-1" style="animation:marquee-left 213s linear infinite">
+                            ${duplicateForMarquee(countryChips, 2)}
+                        </div>
+                    </div>
+                    <div class="marquee-mask overflow-hidden">
+                        <div class="marquee-track py-1" style="animation:marquee-right 213s linear infinite">
+                            ${duplicateForMarquee(countryChips, 2)}
+                        </div>
+                    </div>
+                `;
+            }
+
+            const intlRouteChips = generateInternationalRouteChips(internationalRoutes);
+            const domRouteChips = generateDomesticChips(domesticRoutes);
+            const routesContainer = document.getElementById('routesMarquee');
+            if (routesContainer) {
+                routesContainer.innerHTML = `
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 px-2">🌍 International</p>
+                        <div class="marquee-mask overflow-hidden">
+                            <div class="marquee-track py-1" style="animation:marquee-left 160s linear infinite">
+                                ${duplicateForMarquee(intlRouteChips, 2)}
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 px-2">🇧🇩 Domestic</p>
+                        <div class="marquee-mask overflow-hidden">
+                            <div class="marquee-track py-1" style="animation:marquee-right 93s linear infinite">
+                                ${duplicateForMarquee(domRouteChips, 2)}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            const unsplashBase = 'https://images.unsplash.com/';
+            const bdDestinations = [
+                { img: 'photo-1589394815804-964ed0be2eb5', name: "Cox's Bazar", desc: "World's longest sea beach",
+                    price: '15,000', tag: 'Popular' },
+                { img: 'photo-1602002418082-a4443e081dd1', name: 'Sundarbans',
+                    desc: 'Royal Bengal Tiger, mangroves', price: '12,500', tag: 'UNESCO' },
+                { img: 'photo-1587474260584-136574528ed5', name: 'Sylhet',
+                    desc: 'Tea gardens, Ratargul, Jaflong', price: '18,000', tag: 'Popular' },
+                { img: 'photo-1464822759023-fed622ff2c3b', name: 'Bandarban',
+                    desc: 'Boga Lake, Nilgiri, tribal culture', price: '22,000', tag: 'Adventure' },
+                { img: 'photo-1506260408121-e353d10b87c7', name: 'Rangamati', desc: 'Kaptai Lake, hanging bridge',
+                    price: '14,500', tag: 'Scenic' },
+                { img: 'photo-1507525428034-b723cf961d3e', name: 'Saint Martin', desc: 'Coral island, crystal water',
+                    price: '20,000', tag: 'Island' },
+            ];
+            const intlDestinations = [
+                { img: 'photo-1514282401047-d79a71a590e8', name: 'Maldives',
+                    desc: 'Overwater villas, turquoise lagoons', price: '85,000', tag: 'Beach' },
+                { img: 'photo-1537996194471-e657df975ab4', name: 'Bali', desc: 'Temples, rice terraces, surf',
+                    price: '65,000', tag: 'Tropical' },
+                { img: 'photo-1512453979798-5ea266f8880c', name: 'Dubai', desc: 'Skyline, desert, shopping',
+                    price: '55,000', tag: 'Luxury' },
+                { img: 'photo-1524231757912-21f4fe3a7200', name: 'Istanbul',
+                    desc: 'Bosphorus, bazaars, mosques', price: '70,000', tag: 'Historic' },
+                { img: 'photo-1502602898657-3e91760cbb34', name: 'Paris', desc: 'Eiffel Tower, art, cafés',
+                    price: '120,000', tag: 'Romantic' },
+                { img: 'photo-1540959733332-eab4deabeeaf', name: 'Tokyo', desc: 'Neon streets, sushi, shrines',
+                    price: '135,000', tag: 'Modern' },
+            ];
+
+            function generateDestinationCards(destinations) {
+                return destinations.map(d => `
+                    <div class="shrink-0">
+                        <div class="w-[280px] mx-2 group bg-card border border-border rounded-2xl overflow-hidden hover:shadow-soft hover:-translate-y-1 transition-all">
+                            <div class="aspect-[16/10] relative overflow-hidden bg-secondary">
+                                <img src="${unsplashBase}${d.img}?w=600&h=375&fit=crop&auto=format" alt="${d.name}" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <span class="absolute top-3 left-3 text-[10px] font-semibold px-2 py-1 rounded-full bg-card/90 backdrop-blur">${d.tag}</span>
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-base mb-1">${d.name}</h3>
+                                <p class="text-xs text-muted-foreground mb-2 line-clamp-1">${d.desc}</p>
+                                <div class="text-sm font-semibold">BDT ${d.price}<span class="text-xs text-muted-foreground font-normal"> /person</span></div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            const bdCards = generateDestinationCards(bdDestinations);
+            const intlCards = generateDestinationCards(intlDestinations);
+            const destContainer = document.getElementById('destinationsMarquee');
+            if (destContainer) {
+                destContainer.innerHTML = `
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 px-2">🇧🇩 Bangladesh</p>
+                        <div class="marquee-mask overflow-hidden">
+                            <div class="marquee-track py-1" style="animation:marquee-left 120s linear infinite">
+                                ${duplicateForMarquee(bdCards, 2)}
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 px-2">🌍 International</p>
+                        <div class="marquee-mask overflow-hidden">
+                            <div class="marquee-track py-1" style="animation:marquee-right 120s linear infinite">
+                                ${duplicateForMarquee(intlCards, 2)}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            const airlineBase = 'https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/';
+            const airlines = [
+                { code: 'BG', name: 'Biman Bangladesh' }, { code: 'BS', name: 'US-Bangla Airlines' },
+                { code: 'VQ', name: 'NOVOAIR' }, { code: 'EK', name: 'Emirates' },
+                { code: 'SQ', name: 'Singapore Airlines' }, { code: 'MH', name: 'Malaysia Airlines' },
+                { code: 'QR', name: 'Qatar Airways' }, { code: 'SV', name: 'Saudia' },
+                { code: 'TK', name: 'Turkish Airlines' }, { code: 'TG', name: 'Thai Airways' },
+                { code: 'CX', name: 'Cathay Pacific' }, { code: '6E', name: 'IndiGo' },
+                { code: 'AI', name: 'Air India' }, { code: 'EY', name: 'Etihad Airways' },
+                { code: 'FZ', name: 'flydubai' }, { code: 'GF', name: 'Gulf Air' },
+            ];
+
+            function generateAirlineChips(airlineList) {
+                return airlineList.map(a => `
+                    <div class="shrink-0">
+                        <div class="shrink-0 inline-flex items-center gap-3 px-5 py-3 rounded-2xl bg-card border border-border shadow-card hover:-translate-y-0.5 hover:border-primary/40 transition-all">
+                            <img src="${airlineBase}airlines_${a.code}_200_200_s.png" alt="${a.name}" loading="lazy" class="h-9 w-9 rounded-lg object-contain bg-white">
+                            <span class="text-sm font-medium pr-1">${a.name}</span>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            const airlineChips = generateAirlineChips(airlines);
+            const airlinesContainer = document.getElementById('airlinesMarquee');
+            if (airlinesContainer) {
+                airlinesContainer.innerHTML = `
+                    <div class="marquee-mask overflow-hidden">
+                        <div class="marquee-track py-1" style="animation:marquee-left 213s linear infinite">
+                            ${duplicateForMarquee(airlineChips, 2)}
+                        </div>
+                    </div>
+                    <div class="marquee-mask overflow-hidden">
+                        <div class="marquee-track py-1" style="animation:marquee-right 213s linear infinite">
+                            ${duplicateForMarquee(airlineChips, 2)}
+                        </div>
+                    </div>
+                `;
+            }
+        }
+    </script>
 </body>
 </html>
